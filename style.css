@@ -38,7 +38,7 @@
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .task-row-wrapper {
@@ -140,7 +140,7 @@
 }
 
 .list-item >  .input.task {
-  width: 226px
+  width: 226px;
 }
 
 .button.delete .btn-icon {
@@ -156,19 +156,19 @@
 /* Completed */
 
 .to-do-list#completed-tasks .label {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 
 .to-do-list .list-item .input.task {
-  display: none
+  display: none;
 }
 
 .to-do-list .list-item.edit-mode .input.task {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .to-do-list .list-item.edit-mode .label {
