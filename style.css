@@ -13,6 +13,11 @@
   text-align: right;
 }
 
+.img-header{
+  margin: 0;
+  padding: 0;
+}
+
 .header .body-img {
   width: 100%;
 }
@@ -22,11 +27,11 @@
 }
 
 @media (max-width: 768px) {
-
+  
   .header { 
     text-align: center;
   }
-
+  
 }
 
 .main-page-el {
@@ -77,7 +82,7 @@
 /* Heading */
 
 .title-list,
-.label.new-task-docket {
+.new-task-docket {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -106,7 +111,7 @@
 
 /* New Task */
 
-.label.new-task-docket {
+.new-task-docket {
   display: block;
   margin: 0 0 20px;
 }
